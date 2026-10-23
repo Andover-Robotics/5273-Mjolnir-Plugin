@@ -58,17 +58,11 @@ public class ConfigVariableDeserializer implements JsonDeserializer<ConfigVariab
                     return new BasicVariable<>(varType, new ConstantProvider<>(null));
                 }
 
-                try {
-                    Class<?> enumClass =
-                            Class.forName(obj.get(ConfigVariable.ENUM_CLASS_KEY).getAsString());
-                    return new BasicVariable<>(
-                            varType,
-                            new ConstantProvider<>(
-                                    jsonDeserializationContext.deserialize(
-                                            obj.get(ConfigVariable.VALUE_KEY), enumClass)));
-                } catch (ClassNotFoundException e) {
-                    throw new RuntimeException();
-                }
+                return new BasicVariable<>(
+                        varType,
+                        new ConstantProvider<>(
+                                new EnumRep(obj.get(ConfigVariable.ENUM_CLASS_KEY).getAsString(),
+                                        obj.get(ConfigVariable.VALUE_KEY).getAsString())));
             case CUSTOM:
                 if (valueEl.isJsonNull()) {
                     return new CustomVariable(null);
@@ -81,7 +75,7 @@ public class ConfigVariableDeserializer implements JsonDeserializer<ConfigVariab
                     VariableType childType =
                             jsonDeserializationContext.deserialize(
                                     childObj.get(ConfigVariable.TYPE_KEY), VariableType.class);
-                    ConfigVariable child;
+                    ConfigVariable<?> child;
                     if (childType == VariableType.CUSTOM) {
                         child =
                                 jsonDeserializationContext.deserialize(
