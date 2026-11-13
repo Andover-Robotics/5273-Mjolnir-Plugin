@@ -11,27 +11,27 @@
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
     <actions>
-        <action id="com.mjolnir5273.MakeOpMode" class="com.mjolnir5273.MakeOpMode" text="FTC OpMode"
+        <action id="com.mjolnir5273.template.MakeOpMode" class="com.mjolnir5273.template.MakeOpMode" text="FTC OpMode"
                 description="Adds an FTC OpMode">
             <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewFile"/>
         </action>
-        <action id="com.mjolnir5273.MakeHardware" class="com.mjolnir5273.MakeHardware" text="Add FTC Hardware"
+        <action id="com.mjolnir5273.template.MakeHardware" class="com.mjolnir5273.template.MakeHardware" text="Add FTC Hardware"
                 description="Adds FTC Hardware as a class field on a class">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="ShowIntentionsGroup"/>
         </action>
-        <action id="com.mjolnir5273.AddGradleDependency" class="com.mjolnir5273.AddGradleDependency" text="Add Library"
+        <action id="com.mjolnir5273.template.AddGradleDependency" class="com.mjolnir5273.template.AddGradleDependency" text="Add Library"
                 description="Add library">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
         </action>
-        <action id="com.mjolnir5273.MakeFSM" class="com.mjolnir5273.MakeFSM" text="Add FSM"
+        <action id="com.mjolnir5273.template.MakeFSM" class="com.mjolnir5273.template.MakeFSM" text="Add FSM"
                 description="Adds an FSM as a class field">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="ShowIntentionsGroup"/>
         </action>
-        <action id="com.mjolnir5273.UseFSM" class="com.mjolnir5273.UseFSM" text="Use FSM"
+        <action id="com.mjolnir5273.template.UseFSM" class="com.mjolnir5273.template.UseFSM" text="Use FSM"
                 description="Adds a switch case to iterate over a FSM">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="ShowIntentionsGroup"/>
         </action>
-        <action id="com.mjolnir5273.UseTemplate" class="com.mjolnir5273.UseTemplate" text="Use Template"
+        <action id="com.mjolnir5273.template.UseTemplate" class="com.mjolnir5273.template.UseTemplate" text="Use Template"
                 description="Uses a template that can autofill files in a project.">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
         </action>

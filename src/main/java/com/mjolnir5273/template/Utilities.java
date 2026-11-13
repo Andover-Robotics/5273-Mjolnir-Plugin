@@ -1,4 +1,4 @@
-package com.mjolnir5273;
+package com.mjolnir5273.template;
 
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;

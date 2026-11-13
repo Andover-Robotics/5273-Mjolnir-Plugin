@@ -1,4 +1,4 @@
-package com.mjolnir5273;
+package com.mjolnir5273.template;
 
 import com.intellij.openapi.ui.DialogWrapper;
 

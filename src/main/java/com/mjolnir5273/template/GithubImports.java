@@ -1,4 +1,4 @@
-package com.mjolnir5273;
+package com.mjolnir5273.template;
 
 import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.vfs.VirtualFile;
