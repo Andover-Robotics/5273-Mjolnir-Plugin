@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 /** Class for representing dashboard messages. */
 public class Message {

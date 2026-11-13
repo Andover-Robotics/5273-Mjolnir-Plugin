@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

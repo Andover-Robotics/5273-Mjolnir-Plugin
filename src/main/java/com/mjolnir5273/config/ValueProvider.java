@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 /**
  * A generic interface for providing and storing a single value.

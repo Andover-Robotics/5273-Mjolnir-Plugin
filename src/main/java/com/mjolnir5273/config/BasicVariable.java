@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 public class BasicVariable<T> extends ConfigVariable<T> {
     private VariableType type;

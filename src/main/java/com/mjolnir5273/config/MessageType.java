@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 /** Dashboard message types. These values match the corresponding Redux actions in the frontend. */
 public enum MessageType {

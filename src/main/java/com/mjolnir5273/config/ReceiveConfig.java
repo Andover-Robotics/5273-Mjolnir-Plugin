@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 public class ReceiveConfig extends Message {
     public CustomVariable configRoot;

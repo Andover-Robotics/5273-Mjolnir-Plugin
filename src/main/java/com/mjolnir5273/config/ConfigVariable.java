@@ -1,4 +1,4 @@
-package com.plugin.config;
+package com.mjolnir5273.config;
 
 import java.util.HashSet;
 import java.util.Set;
