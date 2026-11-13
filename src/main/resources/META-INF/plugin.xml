@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.mjolnir5273</id>
+    <id>com.mjolnir5273.template</id>
     <name>Mjolnir Template Dropper for FTC</name>
     <vendor email="arnav@andoverrobotics.com" url="https://www.andoverrobotics.com/">5273 ARC Thunder</vendor>
 

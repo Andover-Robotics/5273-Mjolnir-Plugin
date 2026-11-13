@@ -1,4 +1,4 @@
-# Mjolnir for FTC
+# Mjolnir Template Dropper for FTC
 <!-- this is used to build the plugin, don't remove these comments -->
 <!-- Plugin description -->
 A toolset for FTC software development, with a variety of actively updated utilities. Made by Team [**5273 ARC Thunder**](https://www.andoverrobotics.com/teams/arc-thunder)
