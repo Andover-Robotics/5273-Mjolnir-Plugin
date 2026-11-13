@@ -1,7 +1,6 @@
-package com.plugin;
+package com.mjolnir5273;
 
 import com.intellij.openapi.progress.ProgressIndicator;
-import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.openapi.vfs.VirtualFileManager;
 

@@ -1,4 +1,4 @@
-package com.plugin;
+package com.mjolnir5273;
 
 import java.util.ArrayList;
 import java.util.List;

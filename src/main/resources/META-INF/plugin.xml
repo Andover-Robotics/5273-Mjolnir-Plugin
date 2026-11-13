@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.plugin</id>
-    <name>Mjolnir for FTC (pre-release)</name>
+    <id>com.mjolnir5273</id>
+    <name>Mjolnir Template Dropper for FTC</name>
     <vendor email="arnav@andoverrobotics.com" url="https://www.andoverrobotics.com/">5273 ARC Thunder</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -11,33 +11,29 @@
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
     <actions>
-        <action id="com.plugin.MakeOpMode" class="com.plugin.MakeOpMode" text="FTC OpMode"
+        <action id="com.mjolnir5273.MakeOpMode" class="com.mjolnir5273.MakeOpMode" text="FTC OpMode"
                 description="Adds an FTC OpMode">
             <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewFile"/>
         </action>
-        <action id="com.plugin.MakeHardware" class="com.plugin.MakeHardware" text="Add FTC Hardware"
+        <action id="com.mjolnir5273.MakeHardware" class="com.mjolnir5273.MakeHardware" text="Add FTC Hardware"
                 description="Adds FTC Hardware as a class field on a class">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="ShowIntentionsGroup"/>
         </action>
-        <action id="com.plugin.AddGradleDependency" class="com.plugin.AddGradleDependency" text="Add Library"
+        <action id="com.mjolnir5273.AddGradleDependency" class="com.mjolnir5273.AddGradleDependency" text="Add Library"
                 description="Add library">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
         </action>
-        <action id="com.plugin.MakeFSM" class="com.plugin.MakeFSM" text="Add FSM"
+        <action id="com.mjolnir5273.MakeFSM" class="com.mjolnir5273.MakeFSM" text="Add FSM"
                 description="Adds an FSM as a class field">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="ShowIntentionsGroup"/>
         </action>
-        <action id="com.plugin.UseFSM" class="com.plugin.UseFSM" text="Use FSM"
+        <action id="com.mjolnir5273.UseFSM" class="com.mjolnir5273.UseFSM" text="Use FSM"
                 description="Adds a switch case to iterate over a FSM">
             <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="ShowIntentionsGroup"/>
         </action>
-        <action id="com.plugin.UseTemplate" class="com.plugin.UseTemplate" text="Use Template"
+        <action id="com.mjolnir5273.UseTemplate" class="com.mjolnir5273.UseTemplate" text="Use Template"
                 description="Uses a template that can autofill files in a project.">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
-        </action>
-        <action id="com.plugin.FTCDashboardAction" class="com.plugin.FTCDashboardAction" text="Sync with Dashboard"
-                description="Syncs your config variables with the variables in the current FTC Dashboard instance">
-            <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="ToolsBasicGroup"/>
         </action>
     </actions>
 </idea-plugin>

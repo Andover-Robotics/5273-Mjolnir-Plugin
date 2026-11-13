@@ -1,4 +1,4 @@
-package com.plugin;
+package com.mjolnir5273;
 
 import com.intellij.lang.java.JavaLanguage;
 import com.intellij.openapi.actionSystem.AnAction;
